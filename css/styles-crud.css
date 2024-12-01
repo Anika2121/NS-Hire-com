@@ -1,0 +1,54 @@
+/* Aligning icons and setting the table styling */
+table td, table th {
+    vertical-align: middle;
+    background-color:#f2fb90;
+    color: rgb(9, 9, 9);
+}
+
+.fa-edit, .fa-trash {
+    cursor: pointer;
+    color: #55a7ff;
+}
+
+.fa-trash {
+    color: #fa1e13;
+}
+
+.fa-edit:hover, .fa-trash:hover {
+    opacity: 0.8;
+}
+body{
+    background-color:#ffffff;
+}
+.table .thead-dark th{
+    background-color: #a7df76;
+    border: 1px solid #6f9a49;
+    
+}
+.table {
+    border-radius: 7px;
+}
+.form-control{
+    border:2px solid #f4d58d;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dbb9a5;
+}
+
+.btn-add {
+
+    width: 100px;
+    background-color: #726de0;
+    border-radius: 10px;
+    margin-left: 3px;
+   text-align: center;
+   padding: 12px 15px;
+}
+ .container a{
+    color: white !important;
+    text-decoration: none;
+    margin-top: 3px;
+}
+  
+
+

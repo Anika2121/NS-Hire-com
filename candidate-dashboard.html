@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ccddfe;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #a8c5ff;
+            min-height: 100vh;
+            position: fixed;
+            padding-top: 20px;
+            color: #ffffff;
+        }
+        .sidebar .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .sidebar .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            width: 100%;
+        }
+        .sidebar ul li a {
+            color: #2d65ab;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .sidebar ul li a:hover {
+            background-color: #89b4f4;
+        }
+        .sidebar ul li a i {
+            margin-right: 10px;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .main-content h2{
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="https://via.placeholder.com/80" alt="Candidate Profile Picture">
+            
+            <h5>Candidate Name</h5>
+            <h6>ID###</h6>
+        </div>
+        <ul>
+            <li><a href="#"><i class="fas fa-cog" style="color: #ffffff;"></i> Settings</a></li>
+            <li><a href="#"><i class="fa-solid fa-briefcase" style="color: #ffffff;"></i> Apply Job</a></li>
+            <li><a href="#"><i class="fa-solid fa-book-open" style="color: #ffffff;"></i>Application</a></li>
+            <li><a href="#"><i class="fa-solid fa-file" style="color: #ffffff;"></i> Resume</a></li>
+            <li><a href="#"><i class="fa-regular fa-star-half-stroke" style="color: #ffffff;"></i> Review</a></li>
+            <li><a href="#"><i class="fa-regular fa-message" style="color: #ffffff;"></i>Message</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Welcome to Candidate Dashboard</h2>
+       
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
